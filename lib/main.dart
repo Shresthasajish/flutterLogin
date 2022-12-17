@@ -10,6 +10,7 @@ class LoginApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "LoginApp",
+      debugShowCheckedModeBanner: false,
       home: LoginScreen(),
     );
   }
